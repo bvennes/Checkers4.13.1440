@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#ffc900ff">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="225dp"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                class="edu.up.cs301.Checkers.DeadPileView"
+                android:id="@+id/playersDeadPileSurfaceView"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="New Text"
+                android:id="@+id/playerID"
+                android:textSize="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="right" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/player0spin"
+                android:background="@color/red" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:background="#000000">
+
+            <view
+                android:layout_width="570dp"
+                android:layout_height="570dp"
+                class="edu.up.cs301.Checkers.CheckersBoardView"
+                android:id="@+id/gameBoardSurfaceView"
+                android:clickable="false"
+                android:layout_marginTop="27dp"
+                android:layout_marginLeft="2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="New Text"
+                android:id="@+id/opponentID"
+                android:textSize="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left" />
+
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                class="edu.up.cs301.Checkers.DeadPileView"
+                android:id="@+id/opponentsDeadPileSurfaceView"
+                android:background="@color/black" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/player1spin"
+                android:background="@color/red" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

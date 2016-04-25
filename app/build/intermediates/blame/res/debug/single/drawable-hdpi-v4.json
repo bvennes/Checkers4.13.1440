@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "P:\\Checkers4.13.1440\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\purple_delete_button.png",
+        "source": "P:\\Checkers4.13.1440\\app\\src\\main\\res\\drawable-hdpi\\purple_delete_button.png"
+    },
+    {
+        "merged": "P:\\Checkers4.13.1440\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
+        "source": "P:\\Checkers4.13.1440\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "P:\\Checkers4.13.1440\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "P:\\Checkers4.13.1440\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]
